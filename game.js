@@ -66,7 +66,7 @@ function getNewQuestion() {
 
    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
    currentQuestion = availableQuestions[questionsIndex];
-   question.innerHTML = currentQuestion.question
+   question.innerHTML = currentQuestion.question;
 
    choices.forEach(choice => {
       const number = choice.dataset['number'];
